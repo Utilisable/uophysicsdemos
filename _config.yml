@@ -1,3 +1,4 @@
+url: https://utilisable.github.io/uophysicsdemos/
 plugins:
   - jekyll-relative-links
 relative_links:
