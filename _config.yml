@@ -5,7 +5,9 @@ relative_links:
   collections: true
 
 collections:
-  - demos
+  demos:
+    output: true
+    name: true
 include:
   - CONTRIBUTING.md
   - README.md
