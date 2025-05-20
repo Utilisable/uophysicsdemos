@@ -9,6 +9,6 @@ If you need to borrow a demonstration for your class, please contact the 1st yea
 {% site %}
 {% site.demos %}
 
-{% for demo in collection.demos %}
+{% for demo in site.demos %}
   - {{ demo.name }}
 {% endfor %}
