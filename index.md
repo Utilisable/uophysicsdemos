@@ -1,5 +1,6 @@
 ---
 title: UO Physics Demos
+layout: home
 ---
 # Welcome to the University of Ottawa Physics Demonstration wiki page!
 
