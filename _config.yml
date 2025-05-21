@@ -6,10 +6,11 @@ relative_links:
   enabled: true
   collections: true
 
+theme: jekyll-theme-minimal
+
 collections:
   demos:
     output: true
-    name: true
 include:
   - CONTRIBUTING.md
   - README.md
