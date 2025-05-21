@@ -24,3 +24,12 @@ include:
 picture:
   source: "assets/images/fullsize"
   output: "assets/images/generated"
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: demos
+    values:
+      layout: single
+      share: true
