@@ -18,3 +18,7 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+
+picture:
+  source: "assets/images/fullsize"
+  output: "assets/images/generated"
