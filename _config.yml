@@ -6,8 +6,6 @@ relative_links:
   enabled: true
   collections: true
 
-theme: minimal-mistakes-jekyll
-
 collections:
   demos:
     output: true
