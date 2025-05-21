@@ -1,6 +1,7 @@
 ---
 layout: default
 name: Air Track
+title: Air Track
 PIRA: 1C10.25
 categories:
   - mechanics
