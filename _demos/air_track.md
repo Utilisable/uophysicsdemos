@@ -1,4 +1,5 @@
 ---
+layout: default
 name: Air Track
 PIRA: 1C10.25
 categories:
