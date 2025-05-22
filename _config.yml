@@ -26,13 +26,6 @@ picture:
   output: "assets/images/generated"
 
 defaults:
-  - 
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: default
-  - 
     scope:
       path: ""
       type: demos
