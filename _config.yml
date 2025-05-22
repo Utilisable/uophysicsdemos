@@ -25,6 +25,7 @@ include:
 picture:
   source: "assets/images/fullsize"
   output: "assets/images/generated"
+  ignore_missing_images: true
 
 defaults:
     scope:
