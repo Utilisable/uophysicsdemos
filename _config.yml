@@ -6,7 +6,7 @@ relative_links:
   enabled: true
   collections: true
 
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 
 collections:
   demos:
@@ -32,4 +32,4 @@ defaults:
       type: demos
     values:
       layout: single
-      share: true
+      share: false
