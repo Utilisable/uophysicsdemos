@@ -1,4 +1,5 @@
-baseurl: https://utilisable.github.io/uophysicsdemos/
+baseurl: uophysicsdemos/
+url: https://utilisable.github.io/
 plugins:
   - jekyll-relative-links
   - jekyll_picture_tag
