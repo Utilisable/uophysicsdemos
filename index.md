@@ -2,7 +2,7 @@
 title: UO Physics Demos
 layout: home
 ---
-# Welcome to the University of Ottawa Physics Demonstration wiki page!
+## Welcome to the University of Ottawa Physics Demonstration wiki page!
 
 ### Browsing demonstrations
 Lecture physics demonstrations available at the university of Ottawa can be found on this site.  They are sorted following the [http://physicslearning.colorado.edu/bib/bibMain.asp PIRA Demonstration Classification Scheme] (see the list of topics on the left side of the page).  You can also use our search engine located at the top of this page.
