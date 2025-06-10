@@ -30,9 +30,10 @@ picture:
   ignore_missing_images: true
 
 defaults:
+  -
     scope:
       path: ""
-      type: demos
+      type: "demos"
     values:
-      layout: single
+      layout: default
       share: false
