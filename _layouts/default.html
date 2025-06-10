@@ -16,7 +16,7 @@
           <h2>Categories</h2>
           <div class="links flex two three-500 five-800 one-1000">
             {% for category in site.categories %}
-              <div><a class="pseudo button" href="{{ category.url | relative_url }}">\{{ category.title }}</a></div>
+              <div><a class="pseudo button" href="{{ category.url | relative_url }}">{{ category.title }}</a></div>
             {% endfor %}
           </div>
         </aside>
