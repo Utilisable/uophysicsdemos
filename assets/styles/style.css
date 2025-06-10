@@ -9,5 +9,8 @@
 
 aside .links a.button {
     text-align: left;
+}
+
+.document aside a.button {
     display: block;
 }
