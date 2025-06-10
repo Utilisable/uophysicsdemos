@@ -9,14 +9,21 @@
   <body>
     <nav>
       <a href="/">Home</a>
-      {% for category in site.categories %}
-        [{{ category.title }}]({{ category.url | relative_url }})
-      {% endfor %}
     </nav>
-    <main>
-      <section class="document">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
+    <mainc class="document">
+      <section class="full five">
+        <aside class="full fifth-1000">
+          <h2>Categories</h2>
+          <div class="links flex two three-500 five-800 one-1000">
+            {% for category in site.categories %}
+              <div><a class="pseudo button" href="{{ category.url | relative_url }}">\{{ category.title }}</a></div>
+            {% endfor %}
+          </div>
+        </aside>
+        <article class="four-fifth-1000">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+        </article>
       </section>
     </main>
     <footer>
