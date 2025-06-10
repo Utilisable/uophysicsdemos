@@ -9,6 +9,9 @@
   <body>
     <nav>
       <a href="/">Home</a>
+      {% for category in site.data.categories %}
+        {{ category.name }}
+      {% endfor %}
     </nav>
     <main>
       <section class="document">
