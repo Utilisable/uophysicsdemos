@@ -12,6 +12,8 @@ relative_links:
 collections:
   demos:
     output: true
+  categories:
+    output: true
 include:
   - CONTRIBUTING.md
   - README.md

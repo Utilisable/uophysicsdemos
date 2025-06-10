@@ -9,8 +9,8 @@
   <body>
     <nav>
       <a href="/">Home</a>
-      {% for category in site.data.categories %}
-        {{ category.name }}
+      {% for category in site.categories %}
+        [{{ category.title }}]({{ category.url | relative_url }})
       {% endfor %}
     </nav>
     <main>
