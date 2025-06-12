@@ -3,9 +3,11 @@ layout: default
 ---
 <div class="flex three">
 {% for demo in site.demos %}
+    {% capture category_url %}/categories/{{ demo.category }}{% endcapture %}
+    {% if category_url == page.url %}
     <div>
         <article class="card">
-        {{demo.card_picture}}
+        {% picture "{{demo.card_picture}}" %}
             <footer>
                 <h3>{{ demo.title }}</h3>
                 
@@ -14,6 +16,6 @@ layout: default
             </footer>
         </article>
     </div>
+    {% endif %}
 {% endfor %}
-{{ page.url }}
 </div>
