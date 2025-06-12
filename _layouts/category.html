@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% assign picture_url = "1C20.10_1.jpg" %}
 <div class="flex three">
 {% for demo in site.demos %}
     {% capture category_url %}/categories/{{ demo.category }}{% endcapture %}
@@ -9,13 +8,10 @@ layout: default
     <div>
         <article class="card">
         {% if demo.card_picture %}
-        {% picture "{{ demo.card_picture }}" %}
+            {% picture "{{ demo.card_picture }}" 1:1 entropy %}
         {% endif %}
             <footer>
                 <h3><a href="{{ demo.url | relative_url }}">{{ demo.title }}</a></h3>
-                
-  - [{{ demo.title }}]({{ demo.url | relative_url }})
-    - {{ demo.category }}
             </footer>
         </article>
     </div>

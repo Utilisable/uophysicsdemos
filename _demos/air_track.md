@@ -6,6 +6,7 @@ tags:
   - one-dimensional motion
   - frictionless
   - motion
+card_picture: 1C10.25_1.jpg
 ---
 
 An air track demonstrates frictionless 1D travel as well as 1-D frictionless collisions
