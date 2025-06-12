@@ -7,16 +7,16 @@
     padding: 80px 0 0;
 }
 
-a.current:hover,
-a.current:active,
-a.current:focus {
-    background: #cff;
-}
-
 aside .links a.button {
     text-align: left;
 }
 
 .document aside a.button {
     display: block;
+}
+
+.document aside a.current:hover,
+.document aside a.current:active,
+.document aside a.current:focus {
+    background: #cff;
 }
