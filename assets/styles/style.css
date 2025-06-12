@@ -24,3 +24,7 @@ aside .links a.button {
     background: #ddd;
     font-weight: bold;
 }
+
+.document article > p > img {
+    max-width: 100%;
+}
