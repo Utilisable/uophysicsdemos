@@ -11,10 +11,10 @@ Lecture physics demonstrations available at the university of Ottawa can be foun
 If you need to borrow a demonstration for your class, please contact the 1st year laboratory staff in person at STM 377, by phone at x6766, or [mailto:phylab@uottawa.ca by email] at least 48 hours before your lecture.
 
 {% for category in site.categories %}
-  - {{ category }}
+  - {{ category.name }}
 {% endfor %}
 
 {% for demo in site.demos %}
   - [{{ demo.title }}]({{ demo.url | relative_url }})
-    - {{ demo }}
+    - {{ demo.name }}
 {% endfor %}
