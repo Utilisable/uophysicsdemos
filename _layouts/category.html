@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
+{% assign picture_url = 1C20.10_1.jpg %}
 <div class="flex three">
 {% for demo in site.demos %}
     {% capture category_url %}/categories/{{ demo.category }}{% endcapture %}
     {% if category_url == page.url %}
     <div>
         <article class="card">
-        {% picture 1C20.10_1.jpg %}
+        {% picture "{{picture_url}}" %}
             <footer>
                 <h3>{{ demo.title }}</h3>
                 
