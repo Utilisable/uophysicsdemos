@@ -8,7 +8,7 @@ layout: default
     {% if category_url == page.url %}
     <div>
         <article class="card">
-        {{ picture_url }}
+        {% picture "{{ picture_url }}" %}
             <footer>
                 <h3>{{ demo.title }}</h3>
                 
