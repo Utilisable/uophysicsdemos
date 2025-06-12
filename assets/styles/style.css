@@ -15,8 +15,10 @@ aside .links a.button {
     display: block;
 }
 
-.document aside a.current:hover,
-.document aside a.current:active,
-.document aside a.current:focus {
-    background: #cff;
+.document aside a.current
+.document aside a.current
+.document aside a.current {
+    background: #ccc;
+    font-weight: bold;
+    text-align: right;
 }
