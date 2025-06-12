@@ -7,6 +7,10 @@
     padding: 80px 0 0;
 }
 
+.document > section > aside {
+    padding: 80px 0 0;
+}
+
 aside .links a.button {
     text-align: left;
 }
@@ -15,8 +19,8 @@ aside .links a.button {
     display: block;
 }
 
-.document aside a.current {
-    background: #ccc;
+.document aside a.current,
+.document aside a:active {
+    background: #ddd;
     font-weight: bold;
-    text-align: right;
 }

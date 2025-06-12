@@ -9,14 +9,13 @@
   </head>
   <body>
     <nav>
-      <a href="/">Home</a>
+      <a href="{{ site.baseurl }}">UO Physics Demos</a>
     </nav>
     <main class="document">
       <section class="flex five">
         <aside class="full fifth-1000">
           <h2>Categories</h2>
           <div class="links flex two three-500 five-800 one-1000">
-              <div><a class="pseudo button" href="{{ current_category_url }}">Current</a></div>
             {% for category in site.categories %}
               {% capture relative_category_url %}{{ category.url | relative_url }}{% endcapture %}
               <div><a class="pseudo button{% if current_category_url == relative_category_url %} current{% endif %}" href="{{ relative_category_url }}">{{ category.title }}</a></div>
