@@ -1,3 +1,5 @@
+{% assign currentCategory_url = site.baseurl  | append: "/" | append: page.category %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,6 +16,7 @@
       <section class="flex five">
         <aside class="full fifth-1000">
           <h2>Categories</h2>
+          {{ currentCategory_url }}
           <div class="links flex two three-500 five-800 one-1000">
             {% for category in site.categories %}
               <div><a class="pseudo button" href="{{ category.url | relative_url }}">{{ category.title }}</a></div>
@@ -27,8 +30,8 @@
       </section>
     </main>
     <footer>
-      <div>&copy; {{ site.date }}</div>
-      <p>page = {{ page }}</p>
+      <div>&copy; {{ site.time }}</div>
+      <p>url = {{ page.url }}</p>
     </footer>
   </body>
 </html>
