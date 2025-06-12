@@ -9,12 +9,11 @@
   </head>
   <body>
     <nav>
-      <a href="{{ site.baseurl }}">UO Physics Demos</a>
+      <a class="brand" href="{{ site.baseurl }}">UO Physics Demos</a>
     </nav>
     <main class="document">
       <section class="flex five">
         <aside class="full fifth-1000">
-          <h2>Categories</h2>
           <div class="links flex two three-500 five-800 one-1000">
             {% for category in site.categories %}
               {% capture relative_category_url %}{{ category.url | relative_url }}{% endcapture %}
@@ -28,9 +27,6 @@
         </article>
       </section>
     </main>
-    <footer>
-      <div>&copy; {{ site.time }}</div>
-      <p>url = {{ page.url }}</p>
-    </footer>
+    <!-- Site rendered at {{ site.time }} -->
   </body>
 </html>
