@@ -1,4 +1,6 @@
-{% assign currentCategory_url = site.baseurl  | append: "/" | append: page.category %}
+{% capture currentCategory_url %}  
+{{ site.baseurl  | append: "/" | append: page.category }}
+{% endcapture %}
 
 <!doctype html>
 <html lang="en">
