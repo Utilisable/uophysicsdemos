@@ -14,6 +14,7 @@ collections:
     output: true
   categories:
     output: true
+    permalink: /:collection/oOo:name
     sort_by: pira
 include:
   - CONTRIBUTING.md
