@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="flex three">
+{% for demo in site.demos %}
+    <div>
+        <article class="card">
+        {% picture {{demo.card_picture}} %}
+            <footer>
+                <h3>{{ demo.title }}</h3>
+                
+  - [{{ demo.title }}]({{ demo.url | relative_url }})
+    - {{ demo.category }}
+            </footer>
+        </article>
+    </div>
+{% endfor %}
+{{ page.url }}
+</div>
