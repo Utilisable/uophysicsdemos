@@ -1,5 +1,5 @@
-{% capture currentCategory_url %}  
-{{ site.baseurl  | append: "/" | append: page.category }}
+{% capture current_category_url %}  
+{{ site.baseurl  | append: "/categories/" | append: page.category }}
 {% endcapture %}
 
 <!doctype html>
@@ -18,10 +18,11 @@
       <section class="flex five">
         <aside class="full fifth-1000">
           <h2>Categories</h2>
-          {{ currentCategory_url }}
+          {{ current_category_url }}
           <div class="links flex two three-500 five-800 one-1000">
             {% for category in site.categories %}
-              <div><a class="pseudo button" href="{{ category.url | relative_url }}">{{ category.title }}</a></div>
+              {% capture relative_category_url %}{{ category.url | relative_url }}{% endcapture %}
+              <div><a class="pseudo button {% if current_category_url == relative_category_url %} current {% endif %}" href="{{ relative_category_url }}">{{ category.title }}</a></div>
             {% endfor %}
           </div>
         </aside>
