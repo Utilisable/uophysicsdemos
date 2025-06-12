@@ -15,3 +15,8 @@ Ce site est construit avec *Github Pages*. À chaque modification d'un ou plusie
 1. Aller dans le dossier `assets/images/fullsize`
 2. Cliquer sur `Add file` -> Upload Files` et télécharger les images.
 3. Les images peuvent maintenant être utlisées avec leur nom (sans les noms de dossiers) avec le taq `{% picture filename.jpg %}` en remplaçant `filename.jpg` avec le nom de fichier approprié.
+
+## Ajouter un vidéo Youtube ##
+
+1. Trouver le id du vidéo Youtube
+2. Dans le fichier du démo ajouter le tag `{% include youtubePlayer.html id="videoid" %}` en remplaçant `videoid` avec le id approprié
