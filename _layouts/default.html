@@ -1,5 +1,5 @@
 {% capture current_category_url %}  
-{{ site.baseurl  | append: "/categories/" | append: page.category }}
+{{ site.baseurl  | append: "/categories/" | append: page.category | strip }}
 {% endcapture %}
 
 <!doctype html>
