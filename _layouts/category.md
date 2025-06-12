@@ -3,6 +3,6 @@ layout: default
 ---
 {% for demo in site.demos %}
   - [{{ demo.title }}]({{ demo.url | relative_url }})
-    - {{ demo.name }}
+    - {{ demo.category }}
 {% endfor %}
-{{ page }}
+{{ page.url }}
