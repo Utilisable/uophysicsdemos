@@ -8,7 +8,10 @@ layout: default
     {% if category_url == page.url %}
     <div>
         <article class="card">
+        {% if demo.card_picture %}
+        {{ demo.card_picture }}
         {% picture "{{ picture_url }}" %}
+        {% endif %}
             <footer>
                 <h3>{{ demo.title }}</h3>
                 
