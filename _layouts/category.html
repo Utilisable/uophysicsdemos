@@ -9,11 +9,10 @@ layout: default
     <div>
         <article class="card">
         {% if demo.card_picture %}
-        {{ demo.card_picture }}
-        {% picture "{{ picture_url }}" %}
+        {% picture "{{ demo.card_picture }}" %}
         {% endif %}
             <footer>
-                <h3>{{ demo.title }}</h3>
+                <h3><a href="{{ demo.url | relative_url }}">{{ demo.title }}</a></h3>
                 
   - [{{ demo.title }}]({{ demo.url | relative_url }})
     - {{ demo.category }}
