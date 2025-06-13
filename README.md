@@ -1,6 +1,6 @@
 ## Description ##
 
-Ce site est construit avec *Github Pages*. À chaque modification d'un ou plusieurs fichier, le site est compiler en un format statique et télécharger sur le web. Les pages sont en format *Markdown* (.md), *HTML* (.html). La plateforme utilisée pour interpréter les fichiers est *Jekyll*.
+Ce site est construit avec *Github Pages*. À chaque modification d'un ou plusieurs fichier, le site est compiler en un format statique et télécharger sur le web. Les pages sont en format *Markdown* (.md), *HTML* (.html). La plateforme utilisée pour interpréter les fichiers est [*Jekyll*](https://jekyllrb.com/).
 
 ## Ajouter une démonstration ##
 
